@@ -13,9 +13,6 @@ function draw() {
 
   stroke(256);
 
-  translate(width/2 - 100, height/2);
-  rotate(frameCount*3);
-
-  //line(0, 0, cos(frameCount*3) * 100, sin(frameCount*3) * 100);
-  line(0, 0, cos(frameCount) * 100, sin(frameCount) * 100);
+  translate(width/2, height/2);
+  line(100, 0, cos(frameCount*5) * 100, sin(frameCount*5) * 100);
 }
