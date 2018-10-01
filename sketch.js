@@ -8,10 +8,6 @@ function setup() {
    frameRate(60);
    background(30);
    strokeWeight(2);
-
-   noStroke();
-
-
 }
 
 function draw() {
